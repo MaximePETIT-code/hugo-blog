@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://maximepetit-code.github.io/codesail-hugo/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Codesail - Apprendre Git & GitHub'
 theme = 'ananke'
