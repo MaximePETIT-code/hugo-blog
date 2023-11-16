@@ -1,4 +1,32 @@
 baseURL = 'https://maximepetit-code.github.io/codesail-hugo/'
-languageCode = 'en-us'
-title = 'Codesail - Apprendre Git & GitHub'
-theme = 'ananke'
+languageCode = 'fr'
+title = 'Maxime PETIT - Développeur full stack'
+subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+theme = "DoIt"
+defaultTheme = "light"
+defaultContentLanguage = "fr"
+
+[params]
+  # DoIt theme version
+  version = "0.2.X"
+
+  [params.home.profile]
+  enable = true
+  social = true
+  avatarURL = "./images/profile.jpeg"
+  avatarLinkURL = "https://github.com/maximepetit-code/"
+  subtitle = "Bienvenue sur le blog de Maxime PETIT"
+
+[params.social]
+    GitHub = "maximepetit-code"
+    Linkedin = "maxime-petit-web"
+    Twitter = "maaxdigital"
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "Qui suis-je ?"
+    url = "/about/"
+    title = ""
+    weight = 2
