@@ -21,7 +21,7 @@
     {{- $width = .Width -}}
     {{- end -}}
     {{- with $image -}}
-    <div class="summary-right">
+    <div class="summary-left">
         <div class="featured-image-preview">
             <a href="{{ $.RelPermalink }}" aria-label={{ $.Title }}>
                 {{- dict "Src" . "Title" $.Description "Resources" $.Resources "Height" $height "Width" $width "Loading"
@@ -31,7 +31,7 @@
     </div>
     {{- end -}}
 
-    <div class="summary-left">
+    <div class="summary-right">
         {{- /* Title */ -}}
         <h1 class="single-title" itemprop="name headline">
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
