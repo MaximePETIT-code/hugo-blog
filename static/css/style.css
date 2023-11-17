@@ -40,18 +40,22 @@
 .summary{
     display: flex;
     gap: 24px;
-    border-radius: 12px;
+}
+
+.home[posts] .summary:not(:last-child){
+    padding-bottom: 36px;
+    border-bottom: 1px rgba(0, 0, 0, 0.3) solid;
 }
 
 .home[posts] .summary{
-    border-bottom: none;
+    border-bottom: 0;
 }
 
-.summary-right{
+.summary-left{
     width: 400px;
 }
 
-.summary-right .featured-image-preview{
+.summary-left .featured-image-preview{
     height: 100%;
 }
 
